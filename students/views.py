@@ -14,7 +14,7 @@ def students_list(request):
     'first_name': u'Yan',
     'last_name': u'Khadzhyisky',
     'ticket': 2135,
-    'image': 'img/piv.jpg'},
+    'image': 'img/piv.png'},
     )
     return render(request, 'students/students_list.html', {'students':students})
 def students_add(request):
